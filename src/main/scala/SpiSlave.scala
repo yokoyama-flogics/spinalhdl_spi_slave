@@ -41,7 +41,7 @@ class SpiSlave(
    * Create reset input for spi_clock_domain.
    * Required to clear the internal registers when spi.ss is high when started.
    */
-  val ct_reset = Counter(reset_wait + 2)
+  val ct_reset = Counter(reset_wait)
   when(!ct_reset.willOverflowIfInc) {
     ct_reset.increment()
   }
