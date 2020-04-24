@@ -20,6 +20,4 @@ $ sbt "runMain flogics.lib.spi.SpiSlaveVerilog"
 
 ## Blog in Japanese
 
-Not yet written.
-
-
+- [Added SPI Slave functionality to Murax (free RISC-V SoC)](https://flogics.com/wp/ja/2020/04/added-spi-slave-to-vexriscv-soc-murax/)
