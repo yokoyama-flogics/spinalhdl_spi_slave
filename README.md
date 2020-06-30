@@ -1,6 +1,8 @@
-# Simple SPI Slave (MOSI only) written by SpinalHDL
+# Simple SPI Peripheral (COPI only) written by SpinalHDL
 
 - Learning how to design clock domain crossing receiver.
+
+> - COPI: Controller Output Peripheral Input
 
 ## Preparation
 
@@ -20,4 +22,4 @@ $ sbt "runMain flogics.lib.spi.SpiSlaveVerilog"
 
 ## Blog in Japanese
 
-- [Added SPI Slave functionality to Murax (free RISC-V SoC)](https://flogics.com/wp/ja/2020/04/added-spi-slave-to-vexriscv-soc-murax/)
+- [Added SPI Peripheral functionality to Murax (free RISC-V SoC)](https://flogics.com/wp/ja/2020/04/added-spi-slave-to-vexriscv-soc-murax/)
